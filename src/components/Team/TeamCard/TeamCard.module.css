@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 304px;
+}
+
+.fullname {
+    font: var(--text-large-semibold);
+    text-align: center;
+}
+
+.jobTitle {
+    font: var(--text-medium-normal);
+    text-align: center;
+}
+
+.description {
+    font: var(--text-regular-normal);
+    text-align: center;
+    margin-top: 1rem;
+}
