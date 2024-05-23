@@ -6,9 +6,13 @@
 
     /* TEXT STYLES */
     --text-heading-h2: 700 3rem/1.2 "Roboto", sans-serif;
-    --text-regular-normal: 400 1rem/1.5 "Roboto", sans-serif;
     --text-regular-semibold: 600 1rem/1.5 "Roboto", sans-serif;
+    --text-regular-normal: 400 1rem/1.5 "Roboto", sans-serif;
+
     --text-medium-normal: 400 1.125rem/1.5 "Roboto", sans-serif;
+
+    --text-small-normal: 400 0.875rem/1.5 "Roboto", sans-serif;
+
     --text-large-semibold: 600 1.25rem/1.5 "Roboto", sans-serif;
 }
 
@@ -16,4 +20,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
