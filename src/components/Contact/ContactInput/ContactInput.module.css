@@ -1,0 +1,18 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    font: var(--text-regular-normal);
+    width: 100%;
+}
+
+.input input {
+    height: 3rem;
+    padding: 0 0.75rem;
+    font: var(--text-regular-normal);
+}
+
+.input input::placeholder {
+    font: var(--text-regular-normal);
+}
