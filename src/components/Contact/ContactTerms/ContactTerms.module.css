@@ -1,0 +1,15 @@
+.terms {
+    display: flex;
+    gap: 12px;
+
+    padding-bottom: 1rem;
+    width: fit-content;
+}
+
+.terms span {
+    font: var(--text-small-normal);
+}
+
+.terms a {
+    text-decoration: underline;
+}
