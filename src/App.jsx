@@ -1,5 +1,6 @@
 // COMPONENTS
 import { Team } from "./components/Team";
+import { Contact } from "./components/Contact";
 
 // ICONS
 import LinkedinIcon from "./assets/ic_linkedin.svg";
@@ -11,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Team.Root>
+      {/* <Team.Root>
         <Team.Headline />
 
         <Team.Content>
@@ -107,7 +108,18 @@ function App() {
             </Team.Card>
           </Team.Cards>
         </Team.Content>
-      </Team.Root>
+      </Team.Root> */}
+
+      <Contact.Root>
+        <Contact.Headline />
+        <Contact.Form>
+          <Contact.Input name="Name" />
+          <Contact.Input name="Email" />
+          <Contact.Textarea name="Message" />
+          <Contact.Terms name="I accepted the" hyperlink="#"/>
+          <Contact.Button text="Submit" type="submit" />
+        </Contact.Form>
+      </Contact.Root>
     </>
   );
 }
