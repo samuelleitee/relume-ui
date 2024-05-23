@@ -1,0 +1,23 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    font: var(--text-regular-normal);
+    width: 100%;
+    height: 180px;
+}
+
+.message textarea {
+    font: var(--text-regular-normal);
+    padding: 0.75rem;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.message textarea::placeholder {
+    font: var(--text-regular-normal);
+}
+
+/* tenho uma textarea mas não defini o numero de linhas e colunas. Quero que fique do tamanho do pai, como fazer? */
