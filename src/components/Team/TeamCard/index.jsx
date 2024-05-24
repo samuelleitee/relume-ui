@@ -1,10 +1,10 @@
 import EmptyImage from "../../../assets/empty_image.png";
 import styles from "./TeamCard.module.css";
 
-export function TeamCard({ fullname, jobTitle, description, children }) {
+export function TeamCard({ fullname, jobTitle, description, image, children }) {
   return (
     <div className={styles.container}>
-      <img src={EmptyImage} alt="Empty Image" />
+      <img src={image || EmptyImage} alt="Empty Image" />
 
       <div>
         <p className={styles.fullname}>{fullname}</p>
