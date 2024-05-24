@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <Team.Root>
+      <Team.Root>
         <Team.Headline />
 
         <Team.Content>
@@ -20,7 +20,8 @@ function App() {
             <Team.Card
               fullname="Samuel Leite Pereira"
               jobTitle="Desenvolvedor Fullstack"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              description="Quem não sabe o que busca, não identifica o que acha."
+              image="https://avatars.githubusercontent.com/u/131712358?v=4"
             >
               <Team.SocialNetworks>
                 <Team.SocialNetwork
@@ -38,7 +39,8 @@ function App() {
             <Team.Card
               fullname="Paulo Bezerra"
               jobTitle="Desenvolvedor Front-End"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              description="Caminhos tortuosos são apenas desafios para minha alma inquieta. Cada passo é uma história, cada aventura é uma lição."
+              image="https://avatars.githubusercontent.com/u/137209259?v=4"
             >
               <Team.SocialNetworks>
                 <Team.SocialNetwork
@@ -56,7 +58,8 @@ function App() {
             <Team.Card
               fullname="Lucas Correa"
               jobTitle="Desenvolvedor Fullstack"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              description=" Cada palavra é uma jornada, cada aprendizado é uma vitória."
+              image="https://avatars.githubusercontent.com/u/91700610?v=4"
             >
               <Team.SocialNetworks>
                 <Team.SocialNetwork
@@ -73,8 +76,9 @@ function App() {
 
             <Team.Card
               fullname="Greice Santana"
-              jobTitle="Desenvolvedora Front-End"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              jobTitle="Analista de Dados"
+              description="Minha vida é uma obra de arte em constante evolução, cada momento é uma nova inspiração."
+              image="https://avatars.githubusercontent.com/u/103227472?v=4"
             >
               <Team.SocialNetworks>
                 <Team.SocialNetwork
@@ -90,9 +94,29 @@ function App() {
             </Team.Card>
 
             <Team.Card
-              fullname="Milena"
+              fullname="Milena Melo"
               jobTitle="Desenvolvedora Full-Stack"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              description="Cada batalha é uma oportunidade de mudança, cada vitória é um passo em direção à justiça."
+              image="https://avatars.githubusercontent.com/u/148809944?v=4"
+            >
+              <Team.SocialNetworks>
+                <Team.SocialNetwork
+                  icon={LinkedinIcon}
+                  hyperlink="https://linkedin.com"
+                />
+                <Team.SocialNetwork icon={XIcon} hyperlink="https://x.com" />
+                <Team.SocialNetwork
+                  icon={DribbbleIcon}
+                  hyperlink="https://dribbble.com"
+                />
+              </Team.SocialNetworks>
+            </Team.Card>
+
+            <Team.Card
+              fullname="Daniel"
+              jobTitle="Analista de Dados"
+              description="In God we trust. All others, bring me DATA."
+              image="https://avatars.githubusercontent.com/u/132000699?v=4"
             >
               <Team.SocialNetworks>
                 <Team.SocialNetwork
@@ -108,7 +132,7 @@ function App() {
             </Team.Card>
           </Team.Cards>
         </Team.Content>
-      </Team.Root> */}
+      </Team.Root>
 
       <Contact.Root>
         <Contact.Headline />
