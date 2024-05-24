@@ -2,8 +2,9 @@
     display: flex;
     gap: 12px;
 
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     width: fit-content;
+    cursor: pointer;
 }
 
 .terms span {
