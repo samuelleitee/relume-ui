@@ -5,6 +5,7 @@
     --color-light-grey: #F4F4F4;
 
     /* TEXT STYLES */
+    --text-heading-h1: 700 3.5rem/1.2 "Roboto", sans-serif;
     --text-heading-h2: 700 3rem/1.2 "Roboto", sans-serif;
     --text-regular-semibold: 600 1rem/1.5 "Roboto", sans-serif;
     --text-regular-normal: 400 1rem/1.5 "Roboto", sans-serif;
