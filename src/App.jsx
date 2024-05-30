@@ -1,6 +1,7 @@
 // COMPONENTS
 import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
+import { Header } from "./components/Header";
 
 // ICONS
 import LinkedinIcon from "./assets/ic_linkedin.svg";
@@ -35,7 +36,7 @@ function App() {
                 />
               </Team.SocialNetworks>
             </Team.Card>
-            
+
             <Team.Card
               fullname="Paulo Bezerra"
               jobTitle="Desenvolvedor Front-End"
@@ -140,10 +141,19 @@ function App() {
           <Contact.Input name="Name" />
           <Contact.Input name="Email" />
           <Contact.Textarea name="Message" />
-          <Contact.Terms name="I accepted the" hyperlink="#"/>
+          <Contact.Terms name="I accepted the" hyperlink="#" />
           <Contact.Button text="Submit" type="submit" />
         </Contact.Form>
       </Contact.Root>
+
+      <Header.Root>
+        <Header.Headline title="Medium length hero headline goes here" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat." />
+
+        <Header.Actions>
+          <Header.Button primary text="Submit" action={() => console.log("Submit Button")} />
+          <Header.Button text="Cancel" action={() => console.log("Cancel Button")} />
+        </Header.Actions>
+      </Header.Root>
     </>
   );
 }
