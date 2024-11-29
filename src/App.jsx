@@ -10,6 +10,7 @@ import DribbbleIcon from "./assets/ic_dribbble.svg";
 
 import "./App.css";
 import React from "react";
+import { Gallery } from "./components/Gallery";
 
 function App() {
   const team = [
@@ -199,6 +200,11 @@ function App() {
           />
         </Header.Actions>
       </Header.Root>
+
+      <Gallery.Root>
+        <Gallery.Title heading="Image Gallery" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+        <Gallery.Image src="https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg" alt="Image" />
+      </Gallery.Root>
     </>
   );
 }
